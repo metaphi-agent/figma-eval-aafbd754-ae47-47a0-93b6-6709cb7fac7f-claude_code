@@ -1,25 +1,25 @@
-import Header from './components/blocks/Header';
-import Hero from './components/blocks/Hero';
-import Brands from './components/blocks/Brands';
-import NewArrivals from './components/blocks/NewArrivals';
-import PaydaySale from './components/blocks/PaydaySale';
-import YoungsFavorite from './components/blocks/YoungsFavorite';
-import DownloadApp from './components/blocks/DownloadApp';
-import Newsletter from './components/blocks/Newsletter';
-import Footer from './components/blocks/Footer';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import BrandsSection from './components/BrandsSection';
+import NewArrivalsSection from './components/NewArrivalsSection';
+import PaydayBanner from './components/PaydayBanner';
+import YoungsFavouriteSection from './components/YoungsFavouriteSection';
+import AppDownloadSection from './components/AppDownloadSection';
+import NewsletterSection from './components/NewsletterSection';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-white">
       <Header />
       <main>
-        <Hero />
-        <Brands />
-        <NewArrivals />
-        <PaydaySale />
-        <YoungsFavorite />
-        <DownloadApp />
-        <Newsletter />
+        <HeroSection />
+        <BrandsSection />
+        <NewArrivalsSection />
+        <PaydayBanner />
+        <YoungsFavouriteSection />
+        <AppDownloadSection />
+        <NewsletterSection />
       </main>
       <Footer />
     </div>
