@@ -1,58 +1,64 @@
-# Fashion Shopping Website
+# Fashion Shopping Landing Page
 
-A modern, responsive fashion e-commerce landing page built from Figma design using React, Vite, and Tailwind CSS v4.
+A modern, responsive e-commerce landing page built from Figma design. Features a clean UI with product showcases, promotional banners, and newsletter signup.
 
 ## 🎨 Design
 
-- **Figma File**: [Shopping Website (Community)](https://www.figma.com/design/dmiEyrs6i2gpImH8X2vfij/Shopping-Website--Community-)
-- Converted from Figma to production-ready React code
-- Fully responsive design matching the original Figma specifications
+Converted from Figma design: [Shopping Website (Community)](https://www.figma.com/design/dmiEyrs6i2gpImH8X2vfij/Shopping-Website--Community-)
 
 ## 🚀 Features
 
-- **Modern Tech Stack**: React 19, Vite, Tailwind CSS v4
-- **Responsive Design**: Mobile-first approach, works on all devices
-- **Performance Optimized**: Lazy loading images, optimized assets
+- **Responsive Design**: Fully responsive across all devices
+- **Modern UI**: Built with React and Tailwind CSS v4
 - **Interactive Components**: Hover states, smooth transitions
-- **Clean Architecture**: Component-based structure with UI and block components
+- **Newsletter Signup**: Functional email validation
+- **Performance Optimized**: Fast load times and smooth animations
 
-## 📦 Project Structure
+## 📦 Tech Stack
+
+- **React 19** - UI framework
+- **TypeScript** - Type safety
+- **Tailwind CSS v4** - Styling
+- **Vite** - Build tool
+- **Poppins Font** - Typography
+
+## 🏗️ Project Structure
 
 ```
 src/
 ├── components/
-│   ├── ui/              # Reusable UI components
-│   │   ├── Button.tsx
-│   │   ├── ProductCard.tsx
-│   │   └── PromoCard.tsx
-│   └── blocks/          # Page sections
-│       ├── Header.tsx
-│       ├── Hero.tsx
-│       ├── Brands.tsx
-│       ├── NewArrivals.tsx
-│       ├── PaydaySale.tsx
-│       ├── YoungsFavorite.tsx
-│       ├── DownloadApp.tsx
-│       ├── Newsletter.tsx
-│       └── Footer.tsx
-├── App.tsx
-├── main.tsx
-└── index.css
+│   ├── Header.tsx              # Navigation header
+│   ├── HeroSection.tsx         # Hero with CTA
+│   ├── BrandsSection.tsx       # Brand logos
+│   ├── NewArrivalsSection.tsx  # Product cards
+│   ├── PaydayBanner.tsx        # Promo banner
+│   ├── YoungsFavouriteSection.tsx # Featured products
+│   ├── AppDownloadSection.tsx  # App download CTA
+│   ├── NewsletterSection.tsx   # Email signup
+│   └── Footer.tsx              # Footer with links
+├── App.tsx                     # Main app component
+└── index.css                   # Global styles & theme
 ```
 
-## 🎯 Sections
+## 🎨 Design System
 
-1. **Header** - Navigation with brand logo and sign-up CTA
-2. **Hero** - Large headline with "UNIQUE CLOTHES" emphasis
-3. **Brands** - Partner brand logos (H&M, OBEY, Shopify, Lacoste, Levi's, Amazon)
-4. **New Arrivals** - Product showcase with interactive cards
-5. **Payday Sale** - Promotional banner with CTA
-6. **Young's Favourite** - Curated promotional cards
-7. **Download App** - App store badges and phone mockup
-8. **Newsletter** - Email signup form
-9. **Footer** - Links and social media icons
+### Colors
+- Primary: `#E6C744` (Yellow)
+- Secondary: `#000000` (Black)
+- Background: `#FFFFFF` (White)
+- Gray: `#C2C8DA`
 
-## 🛠️ Installation
+### Typography
+- Font Family: Poppins
+- Weights: Regular (400), Medium (500), Bold (700), Black (900)
+
+## 🚦 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### Installation
 
 ```bash
 # Install dependencies
@@ -65,29 +71,22 @@ npm run dev
 npm run build
 ```
 
-## 🎨 Design Tokens
+## 📱 Sections
 
-**Colors:**
-- Primary: `#E6C744`
-- Black: `#000000`
-- White: `#FFFFFF`
+1. **Hero Section** - Main banner with call-to-action
+2. **Brands** - Partner brand logos (H&M, OBEY, Shopify, LACOSTE, Levi's, Amazon)
+3. **New Arrivals** - Product category cards
+4. **Payday Sale** - Promotional banner
+5. **Young's Favourite** - Featured collections
+6. **App Download** - Mobile app promotion
+7. **Newsletter** - Email subscription
+8. **Footer** - Links and social media
 
-**Typography:**
-- Font Family: Poppins
-- Weights: Regular (400), Medium (500), Bold (700), Black (900)
+## 🔗 Links
 
-## 📱 Preview
-
-Preview URL: [Live Demo](https://ta-01kfzerf7ead9k9nkr3ywt3f97-5173.wo-wl8m25ufz5inziqzy8zx8usow.w.modal.host)
-
-## 🧪 Built With
-
-- [React](https://react.dev/) - UI library
-- [Vite](https://vitejs.dev/) - Build tool
-- [Tailwind CSS v4](https://tailwindcss.com/) - Styling
-- [Lucide React](https://lucide.dev/) - Icons
-- [Framer Motion](https://www.framer.com/motion/) - Animations (ready to use)
+- **Live Preview**: [Modal Sandbox](https://ta-01kg6re8efdrvt4yjgaw19g4km-5173.wo-qmu6up1y4s0tqm1y1t0235g14.w.modal.host)
+- **Figma Design**: [View Design](https://www.figma.com/design/dmiEyrs6i2gpImH8X2vfij)
 
 ## 📄 License
 
-This is a design conversion project for educational purposes.
+This project was created as a Figma-to-Code conversion exercise.
