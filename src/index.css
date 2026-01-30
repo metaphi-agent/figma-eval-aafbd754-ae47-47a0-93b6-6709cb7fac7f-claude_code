@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Colors from Figma design */
+  --color-primary: #E6C744;
+  --color-primary-dark: #E0C340;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-gray: #C2C8DA;
+  --color-gray-light: #F5F7F5;
+  --color-gray-medium: #797979;
+  --color-background: #F5F7F5;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom wavy background pattern */
+.wavy-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 200'%3E%3Cpath fill='none' stroke='%23E6C744' stroke-width='3' d='M0 100 Q 480 0 960 100 T 1920 100'/%3E%3Cpath fill='none' stroke='%23E6C744' stroke-width='3' d='M0 130 Q 480 30 960 130 T 1920 130'/%3E%3Cpath fill='none' stroke='%23E6C744' stroke-width='3' d='M0 160 Q 480 60 960 160 T 1920 160'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+/* Dotted pattern for sale banner */
+.dotted-pattern {
+  background-image: radial-gradient(circle, #000 1px, transparent 1px);
+  background-size: 8px 8px;
+}

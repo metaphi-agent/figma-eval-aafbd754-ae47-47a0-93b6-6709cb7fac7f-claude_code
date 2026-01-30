@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "primary": "#E6C744",
+    "primaryDark": "#E0C340",
+    "white": "#FFFFFF",
+    "black": "#000000",
+    "gray": "#C2C8DA",
+    "grayLight": "#F5F7F5",
+    "grayMedium": "#797979",
+    "background": "#F5F7F5"
+  },
+  "fonts": {
+    "family": "Poppins",
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "black": 900
+    }
+  },
+  "spacing": {
+    "containerPadding": "100px",
+    "sectionGap": "120px"
+  },
+  "borderRadius": {
+    "small": "10px",
+    "medium": "20px",
+    "large": "59px"
+  }
+}
